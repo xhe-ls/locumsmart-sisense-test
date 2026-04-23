@@ -1,0 +1,11 @@
+{
+    "connection": "./connection.json",
+    "database": "DW_PROD_REPORTING_DB",
+    "elasticube": "57cac855-ccd6-4951-8970-22b20a930544",
+    "oid": "c4139768-37ba-4abc-9049-6cc8fda91d61",
+    "schemaName": "DW_PROD_REPORTING_DB",
+    "tables": [
+        "./d2af9fb4-5ffa-42ff-baf9-3e6302ce6d35/table.json"
+    ],
+    "type": "extract"
+}

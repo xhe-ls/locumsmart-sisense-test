@@ -1,0 +1,14 @@
+{
+    "id": "69a8bc8aeda7ea348209c487",
+    "levels": [
+        {
+            "column": "DASHBOARD_TITLE",
+            "datatype": "text",
+            "dim": "[Fact_UsageAnalytics.DASHBOARD_TITLE]",
+            "index": 0,
+            "table": "Fact_UsageAnalytics",
+            "title": "DASHBOARD_TITLE"
+        }
+    ],
+    "title": "DASHBOARD_TITLE"
+}

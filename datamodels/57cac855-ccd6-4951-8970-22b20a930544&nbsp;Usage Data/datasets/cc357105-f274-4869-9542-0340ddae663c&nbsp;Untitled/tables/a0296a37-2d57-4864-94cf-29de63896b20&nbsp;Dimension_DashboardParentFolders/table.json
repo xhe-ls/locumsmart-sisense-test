@@ -1,0 +1,50 @@
+{
+    "aiGeneratedDescription": null,
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "68b86d74-3ceb-4bd4-815a-62960ac1cda0",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TOP_LEVEL_FOLDER_ID",
+            "oid": "f59e948a-8a8d-4b5d-9343-31549d56d6bd",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "723477ea-9fa0-4688-a923-d11189c93c28",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_TOP_LEVEL_FOLDER",
+            "oid": "f97d300f-716e-423d-97ee-3e063409829b",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "dataset": "cc357105-f274-4869-9542-0340ddae663c",
+    "description": null,
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "33868b92-1e8d-4706-8396-edaa14b6519f"
+    },
+    "hidden": false,
+    "id": "New Custom Table",
+    "isMaterialized": null,
+    "isRoleBySystem": null,
+    "name": "Dimension_DashboardParentFolders",
+    "oid": "a0296a37-2d57-4864-94cf-29de63896b20",
+    "role": null,
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

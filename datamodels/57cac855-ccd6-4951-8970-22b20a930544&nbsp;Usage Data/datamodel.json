@@ -1,0 +1,93 @@
+{
+    "analyticalEngine": {
+        "queryAeMode": "AE_ONLY"
+    },
+    "buildDestination": {
+        "destination": "elasticube"
+    },
+    "datamodelId": "57cac855-ccd6-4951-8970-22b20a930544",
+    "datasets": [
+        "./14cd313c-bc4d-417a-b569-43a1ae6cf2fd/dataset.json",
+        "./20ddc25d-0e07-41d4-927c-2505996a51fd/dataset.json",
+        "./31aa6068-21f8-4053-9218-ecb2c780fa72/dataset.json",
+        "./c117561f-6170-4a50-b02f-5a05f2931b45/dataset.json",
+        "./c4139768-37ba-4abc-9049-6cc8fda91d61/dataset.json",
+        "./c5dd8489-e152-40a1-9bce-4267f356fe62/dataset.json",
+        "./cc357105-f274-4869-9542-0340ddae663c/dataset.json",
+        "./dd855683-ec71-480c-bc07-069e9d37527f/dataset.json"
+    ],
+    "dependencies": {
+        "perspectives": [
+            "./57cac855-ccd6-4951-8970-22b20a930544/perspective.json"
+        ]
+    },
+    "experiments": {
+    },
+    "fiscal": "system",
+    "hierarchies": [
+        "./69a8bc8aeda7ea348209c487/hierarchy.json"
+    ],
+    "modelStatistics": {
+        "allTablesPerCollection": true,
+        "enableModelStatistics": true,
+        "maxTablesPerCollection": 10
+    },
+    "oid": "57cac855-ccd6-4951-8970-22b20a930544",
+    "relationType": "direct",
+    "relations": "./relations.json",
+    "relationsTables": [
+        {
+            "firstTable": "f3c9e99d-ab2f-4e21-9e5d-77c6080e1311",
+            "joinType": "default",
+            "secondTable": "a0296a37-2d57-4864-94cf-29de63896b20"
+        },
+        {
+            "firstTable": "abb43fa3-7dbc-448d-85d1-07d750a1cc80",
+            "joinType": "default",
+            "secondTable": "a0296a37-2d57-4864-94cf-29de63896b20"
+        },
+        {
+            "firstTable": "2bf3f3da-6ab7-49ac-9683-32d109502a49",
+            "joinType": "default",
+            "secondTable": "a0296a37-2d57-4864-94cf-29de63896b20"
+        },
+        {
+            "firstTable": "a1e77356-3601-4374-9853-f72126f5304a",
+            "joinType": "default",
+            "secondTable": "a0296a37-2d57-4864-94cf-29de63896b20"
+        },
+        {
+            "firstTable": "d2af9fb4-5ffa-42ff-baf9-3e6302ce6d35",
+            "joinType": "default",
+            "secondTable": "a1e77356-3601-4374-9853-f72126f5304a"
+        },
+        {
+            "firstTable": "d2af9fb4-5ffa-42ff-baf9-3e6302ce6d35",
+            "joinType": "default",
+            "secondTable": "abb43fa3-7dbc-448d-85d1-07d750a1cc80"
+        },
+        {
+            "firstTable": "d2af9fb4-5ffa-42ff-baf9-3e6302ce6d35",
+            "joinType": "default",
+            "secondTable": "2bf3f3da-6ab7-49ac-9683-32d109502a49"
+        },
+        {
+            "firstTable": "d2af9fb4-5ffa-42ff-baf9-3e6302ce6d35",
+            "joinType": "default",
+            "secondTable": "f3c9e99d-ab2f-4e21-9e5d-77c6080e1311"
+        },
+        {
+            "firstTable": "2bfa640c-f97e-4576-9261-d9815c69c11d",
+            "joinType": "default",
+            "secondTable": "abb43fa3-7dbc-448d-85d1-07d750a1cc80"
+        },
+        {
+            "firstTable": "2bfa640c-f97e-4576-9261-d9815c69c11d",
+            "joinType": "default",
+            "secondTable": "f3c9e99d-ab2f-4e21-9e5d-77c6080e1311"
+        }
+    ],
+    "schemaId": null,
+    "title": "Usage Data",
+    "type": "extract"
+}

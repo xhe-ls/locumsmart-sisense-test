@@ -1,0 +1,57 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "DASHBOARD_ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_ID",
+            "oid": "5ca3dc08-4ad1-4d1d-8324-ca1501b60ef2",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DASHBOARD_TITLE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_TITLE",
+            "oid": "c5e0b080-23ed-4495-a511-99ca741b8f06",
+            "precision": 256,
+            "scale": 0,
+            "size": 256,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DASHBOARD_LINK",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DASHBOARD_LINK",
+            "oid": "2ce0017d-6af3-461c-8b3b-7c3e09d9aafb",
+            "precision": 596,
+            "scale": 0,
+            "size": 596,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT DISTINCT\n    OID AS DASHBOARD_ID,\n    TITLE AS DASHBOARD_TITLE,\n    DASHBOARD_LINK\nFROM \"REPORTING\".\"REP_SIS_DASHBOARDS\""
+    },
+    "dataset": "c4139768-37ba-4abc-9049-6cc8fda91d61",
+    "hidden": false,
+    "id": "tq_Sk0XU3hnb",
+    "isMaterialized": false,
+    "name": "Dimension_Dashboards",
+    "oid": "d2af9fb4-5ffa-42ff-baf9-3e6302ce6d35",
+    "primaryKeyColumnNames": null,
+    "schemaName": "DW_PROD_REPORTING_DB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

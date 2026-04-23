@@ -1,0 +1,81 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "DATE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DATE",
+            "oid": "9c20fedd-0277-4f8d-ac09-2b7130d51084",
+            "precision": 10,
+            "scale": 0,
+            "size": 10,
+            "type": 31
+        },
+        {
+            "hidden": false,
+            "id": "MONTHNAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "MONTHNAME",
+            "oid": "5d258254-80b0-488c-aad6-38f35939bcb1",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DAYNAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DAYNAME",
+            "oid": "601e190d-90fb-4644-a78b-2a886588fd70",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "QUARTER",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "QUARTER",
+            "oid": "db916b2e-47aa-469b-a43d-35f6a716dcb3",
+            "precision": 2,
+            "scale": 0,
+            "size": 3,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "YEAR",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "YEAR",
+            "oid": "7e4e3538-2df4-453f-b4bd-fae4d9c51e56",
+            "precision": 4,
+            "scale": 0,
+            "size": 5,
+            "type": 0
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT \n   Date,\n   MonthName,\n   DayName,\n   Quarter,\n   Year\nFROM \"REPORTING\".\"REP_DATE_VIEW\""
+    },
+    "dataset": "20ddc25d-0e07-41d4-927c-2505996a51fd",
+    "hidden": false,
+    "id": "tq_n7OEaGgJp",
+    "isMaterialized": false,
+    "name": "Dimension_ActionDate",
+    "oid": "2bfa640c-f97e-4576-9261-d9815c69c11d",
+    "primaryKeyColumnNames": null,
+    "schemaName": "TempTableQuerySchema",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
