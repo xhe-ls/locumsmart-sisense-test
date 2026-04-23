@@ -1,0 +1,63 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aUsageIAAaData",
+        "fullname": "localhost/Usage Data",
+        "id": "localhost_aUsageIAAaData",
+        "live": false,
+        "title": "Usage Data"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "69ea727043a16f7426f4da66",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00A7E1",
+                "#1572BA",
+                "#0F3152",
+                "#85CEE6",
+                "#373A36",
+                "#FBB03A",
+                "#F2821F",
+                "#F8CA10",
+                "#F8F3CB",
+                "#EC2027"
+            ],
+            "name": "LocumsMart"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "69ea727043a16f7426f4da66"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2026-04-23",
+        "subscribe": false,
+        "timezone": 240,
+        "type": "onUpdate",
+        "tzName": "America/New_York"
+    },
+    "title": "Usage test",
+    "widgets": [
+        "./widgets/69ea729443a16f7426f4da68/widget.json"
+    ]
+}

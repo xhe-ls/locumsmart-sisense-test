@@ -1,0 +1,32 @@
+{
+    "layout": {
+        "columns": [
+            {
+                "cells": [
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 192,
+                                        "maxHeight": 1028,
+                                        "maxWidth": 1028,
+                                        "minHeight": 64,
+                                        "minWidth": 48,
+                                        "widgetid": "69ea729443a16f7426f4da68"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "width": 100
+            }
+        ],
+        "instanceid": "BE5D8-F662-B8",
+        "type": "columnar"
+    },
+    "previewLayout": [
+    ]
+}
