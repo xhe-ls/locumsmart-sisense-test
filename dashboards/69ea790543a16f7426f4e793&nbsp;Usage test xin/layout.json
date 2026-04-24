@@ -16,11 +16,38 @@
                                         "minWidth": 48,
                                         "widgetid": "69ea790543a16f7426f4e794"
                                     }
-                                ]
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1100,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": "444px",
+                                        "maxHeight": 1028,
+                                        "maxWidth": 1028,
+                                        "minHeight": 64,
+                                        "minWidth": 48,
+                                        "widgetid": "69ebc9cb43a16f7426f4f601"
+                                    }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1649.98,
+                                "stretchable": false,
+                                "width": 100
                             }
                         ]
                     }
                 ],
+                "index": 0,
+                "pxlWidth": 1652.2,
                 "width": 100
             }
         ],

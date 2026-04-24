@@ -58,6 +58,7 @@
     },
     "title": "Usage test xin",
     "widgets": [
-        "./widgets/69ea790543a16f7426f4e794/widget.json"
+        "./widgets/69ea790543a16f7426f4e794/widget.json",
+        "./widgets/69ebc9cb43a16f7426f4f601/widget.json"
     ]
 }
