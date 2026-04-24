@@ -16,11 +16,34 @@
                                         "minWidth": 48,
                                         "widgetid": "69ea790543a16f7426f4e794"
                                     }
+                                ],
+                                "index": 0,
+                                "pxlWidth": 1652.2,
+                                "stretchable": false,
+                                "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 384,
+                                        "maxHeight": 2048,
+                                        "maxWidth": 2048,
+                                        "minHeight": 96,
+                                        "minWidth": 128,
+                                        "widgetid": "69ebcb5943a16f7426f4fc83"
+                                    }
                                 ]
                             }
                         ]
                     }
                 ],
+                "index": 0,
+                "pxlWidth": 1652.2,
                 "width": 100
             }
         ],
